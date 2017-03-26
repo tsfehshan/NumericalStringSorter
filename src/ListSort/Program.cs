@@ -10,7 +10,7 @@ namespace ListSort
     {
         public static void Main(string[] args)
         {
-            List<string> str = new List<string> { "1", "2", "5", "10", "3", "4", "BBB", "AAA", "1A" , "2BV" };
+            List<string> str = new List<string> { "1", "2", "5", "10", "3", "4", "BBB", "AAA", "1A" , "2BV","BGT" };
             Func<string, int> intParser = input =>
             {
                 int result;
